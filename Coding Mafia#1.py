@@ -19,4 +19,5 @@ for i in range(last-1):
         answer = answer/number
         answerList.append(round(answer,4))
 
-print(answerList)
+for i in range(last-1):
+    print(answerList[i],end =" ")
